@@ -1,0 +1,603 @@
+[
+  {
+    "exchangeId": "okx",
+    "withdrawFee": {
+      "info": {
+        "DOGE": {
+          "burningFeeRate": "",
+          "canDep": true,
+          "canInternal": true,
+          "canWd": true,
+          "ccy": "DOGE",
+          "chain": "DOGE-Dogecoin",
+          "depQuotaFixed": "",
+          "depQuoteDailyLayer2": "",
+          "logoLink": "https://static.coinall.ltd/cdn/oksupport/asset/currency/icon/doge20230419112833.png",
+          "mainNet": true,
+          "maxFee": "8",
+          "maxFeeForCtAddr": "8",
+          "maxWd": "697190570",
+          "minDep": "0.00000001",
+          "minDepArrivalConfirm": "6",
+          "minFee": "4",
+          "minFeeForCtAddr": "4",
+          "minWd": "10",
+          "minWdUnlockConfirm": "36",
+          "name": "Dogecoin",
+          "needTag": false,
+          "usedDepQuotaFixed": "",
+          "usedWdQuota": "0",
+          "wdQuota": "10000000",
+          "wdTickSz": "8"
+        }
+      },
+      "withdraw": {
+        "fee": 4,
+        "percentage": false
+      },
+      "deposit": {},
+      "networks": {
+        "DOGE": {
+          "withdraw": {
+            "fee": 4,
+            "percentage": false
+          },
+          "deposit": {}
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "binance",
+    "withdrawFee": {
+      "info": {
+        "coin": "DOGE",
+        "depositAllEnable": true,
+        "withdrawAllEnable": true,
+        "name": "Dogecoin",
+        "free": "0",
+        "locked": "0",
+        "freeze": "0",
+        "withdrawing": "0",
+        "ipoing": "0",
+        "ipoable": "0",
+        "storage": "0",
+        "isLegalMoney": false,
+        "trading": true,
+        "networkList": [
+          {
+            "network": "BSC",
+            "coin": "DOGE",
+            "withdrawIntegerMultiple": "0.00000001",
+            "isDefault": false,
+            "depositEnable": true,
+            "withdrawEnable": true,
+            "depositDesc": "",
+            "withdrawDesc": "",
+            "specialTips": "",
+            "specialWithdrawTips": "The network you have selected is BSC. Please ensure that the withdrawal address supports the BNB Smart Chain network. You will potentially lose your assets if the chosen platform does not support refunds of wrongfully deposited assets.",
+            "name": "BNB Smart Chain (BEP20)",
+            "resetAddressStatus": false,
+            "addressRegex": "^(0x)[0-9A-Fa-f]{40}$",
+            "memoRegex": "",
+            "withdrawFee": "4.13",
+            "withdrawMin": "8.26",
+            "withdrawMax": "10000000000",
+            "depositDust": "0.008",
+            "minConfirm": "15",
+            "unLockConfirm": "0",
+            "sameAddress": false,
+            "estimatedArrivalTime": "5",
+            "busy": false,
+            "contractAddressUrl": "https://bscscan.com/token/",
+            "contractAddress": "0xba2ae424d960c26247dd6c32edc70b295c744c43"
+          },
+          {
+            "network": "DOGE",
+            "coin": "DOGE",
+            "withdrawIntegerMultiple": "0.00000001",
+            "isDefault": true,
+            "depositEnable": true,
+            "withdrawEnable": true,
+            "depositDesc": "",
+            "withdrawDesc": "",
+            "specialTips": "",
+            "name": "dogecoin",
+            "resetAddressStatus": false,
+            "addressRegex": "^(D|A|9)[a-km-zA-HJ-NP-Z1-9]{33,34}$",
+            "memoRegex": "",
+            "withdrawFee": "4",
+            "withdrawMin": "24",
+            "withdrawMax": "10000000000",
+            "depositDust": "0.008",
+            "minConfirm": "6",
+            "unLockConfirm": "50",
+            "sameAddress": false,
+            "estimatedArrivalTime": "10",
+            "busy": false
+          },
+          {
+            "network": "BNB",
+            "coin": "DOGE",
+            "withdrawIntegerMultiple": "0.00000001",
+            "isDefault": false,
+            "depositEnable": true,
+            "withdrawEnable": false,
+            "depositDesc": "",
+            "withdrawDesc": "Withdrawal for this token is not supported, please try other networks.",
+            "specialTips": "Both a memo/tag and an address are required to successfully deposit your assets to Binance.",
+            "name": "BNB Beacon Chain (BEP2)",
+            "resetAddressStatus": false,
+            "addressRegex": "^(bnb1)[0-9a-z]{38}$",
+            "memoRegex": "^[0-9A-Za-z\\-_]{1,120}$",
+            "withdrawFee": "2.06",
+            "withdrawMin": "4.12",
+            "withdrawMax": "10000000000",
+            "depositDust": "0.01",
+            "minConfirm": "1",
+            "unLockConfirm": "0",
+            "sameAddress": true,
+            "estimatedArrivalTime": "2",
+            "busy": false,
+            "contractAddressUrl": "https://explorer.bnbchain.org/asset/",
+            "contractAddress": "DOGE-B67"
+          }
+        ]
+      },
+      "withdraw": {
+        "fee": 4
+      },
+      "deposit": {},
+      "networks": {
+        "BEP20": {
+          "withdraw": {
+            "fee": 4.13
+          },
+          "deposit": {}
+        },
+        "DOGE": {
+          "withdraw": {
+            "fee": 4
+          },
+          "deposit": {}
+        },
+        "BEP2": {
+          "withdraw": {
+            "fee": 2.06
+          },
+          "deposit": {}
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "mexc",
+    "withdrawFee": {
+      "info": {
+        "coin": "DOGE",
+        "name": "Dogecoin",
+        "networkList": [
+          {
+            "coin": "DOGE",
+            "depositDesc": null,
+            "depositEnable": true,
+            "minConfirm": "12",
+            "name": "DOGE",
+            "network": "Dogecoin(DOGE)",
+            "withdrawEnable": false,
+            "withdrawFee": "3.8",
+            "withdrawIntegerMultiple": null,
+            "withdrawMax": "3000000",
+            "withdrawMin": "10",
+            "sameAddress": false,
+            "contract": "",
+            "withdrawTips": null,
+            "depositTips": null,
+            "netWork": "DOGE"
+          },
+          {
+            "coin": "DOGE",
+            "depositDesc": null,
+            "depositEnable": true,
+            "minConfirm": "16",
+            "name": "Dogecoin",
+            "network": "BNB Smart Chain(BEP20)",
+            "withdrawEnable": true,
+            "withdrawFee": "3.85",
+            "withdrawIntegerMultiple": null,
+            "withdrawMax": "5000000",
+            "withdrawMin": "8.4",
+            "sameAddress": false,
+            "contract": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+            "withdrawTips": null,
+            "depositTips": null,
+            "netWork": "BSC"
+          }
+        ]
+      },
+      "withdraw": {},
+      "deposit": {},
+      "networks": {
+        "Dogecoin(DOGE)": {
+          "withdraw": {
+            "fee": 3.8
+          },
+          "deposit": {}
+        },
+        "BSC": {
+          "withdraw": {
+            "fee": 3.85
+          },
+          "deposit": {}
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "gateio",
+    "withdrawFee": {
+      "info": {
+        "currency": "DOGE",
+        "name": "DogeCoin",
+        "name_cn": "狗狗币",
+        "deposit": "0",
+        "withdraw_percent": "0%",
+        "withdraw_fix": "3.43",
+        "withdraw_day_limit": "33888425.74",
+        "withdraw_day_limit_remain": "33888425.74",
+        "withdraw_amount_mini": "150",
+        "withdraw_eachtime_limit": "33888425.74",
+        "withdraw_fix_on_chains": {
+          "DOGE": "3.43"
+        },
+        "withdraw_percent_on_chains": {
+          "DOGE": "0%"
+        }
+      },
+      "withdraw": {
+        "fee": 3.43,
+        "percentage": false
+      },
+      "deposit": {
+        "fee": 0,
+        "percentage": false
+      },
+      "networks": {
+        "DOGE": {
+          "withdraw": {
+            "fee": 3.43,
+            "percentage": false
+          },
+          "deposit": {}
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "bitget",
+    "withdrawFee": {
+      "info": {
+        "coinId": "82",
+        "coin": "DOGE",
+        "transfer": "true",
+        "chains": [
+          {
+            "chain": "DOGE",
+            "needTag": "false",
+            "withdrawable": "true",
+            "rechargeable": "true",
+            "withdrawFee": "4",
+            "extraWithdrawFee": "0",
+            "depositConfirm": "6",
+            "withdrawConfirm": "30",
+            "minDepositAmount": "2",
+            "minWithdrawAmount": "40",
+            "browserUrl": "https://dogechain.info/tx/",
+            "contractAddress": null,
+            "withdrawStep": "0",
+            "withdrawMinScale": "8",
+            "congestion": "normal"
+          }
+        ],
+        "areaCoin": "no"
+      },
+      "withdraw": {
+        "fee": 4,
+        "percentage": false
+      },
+      "deposit": {},
+      "networks": {
+        "DOGE": {
+          "deposit": {},
+          "withdraw": {
+            "fee": 4,
+            "percentage": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "bingx",
+    "withdrawFee": {
+      "info": {
+        "coin": "DOGE",
+        "name": "DOGE",
+        "networkList": [
+          {
+            "name": "DOGE",
+            "network": "BEP20",
+            "isDefault": true,
+            "minConfirm": "15",
+            "withdrawEnable": false,
+            "depositEnable": false,
+            "withdrawFee": "4.13",
+            "withdrawMax": "337883497.7",
+            "withdrawMin": "33.103459",
+            "depositMin": "2",
+            "withdrawPrecision": "8",
+            "depositPrecision": "8",
+            "contractAddress": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+            "needTagOrMemo": "false"
+          },
+          {
+            "name": "DOGE",
+            "network": "DOGE",
+            "isDefault": false,
+            "minConfirm": "50",
+            "withdrawEnable": true,
+            "depositEnable": true,
+            "withdrawFee": "3.43",
+            "withdrawMax": "337883497.7",
+            "withdrawMin": "33.217767",
+            "depositMin": "15",
+            "withdrawPrecision": "8",
+            "depositPrecision": "8",
+            "contractAddress": "",
+            "needTagOrMemo": "false"
+          }
+        ]
+      },
+      "withdraw": {
+        "fee": 4.13,
+        "percentage": false
+      },
+      "deposit": {},
+      "networks": {
+        "BEP20": {
+          "deposit": {},
+          "withdraw": {
+            "fee": 4.13,
+            "percentage": false
+          }
+        },
+        "DOGE": {
+          "deposit": {},
+          "withdraw": {
+            "fee": 3.43,
+            "percentage": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "bitmart",
+    "withdrawFee": {
+      "info": {
+        "today_available_withdraw_BTC": "100.0000",
+        "min_withdraw": "20",
+        "withdraw_precision": "8",
+        "withdraw_Precision_GeTen": null,
+        "withdraw_fee": "17"
+      },
+      "withdraw": {
+        "fee": 17
+      },
+      "deposit": {},
+      "networks": {}
+    }
+  },
+  {
+    "exchangeId": "bitmex",
+    "withdrawFee": {
+      "info": {
+        "asset": "DOGE",
+        "currency": "DOGe",
+        "majorCurrency": "DOGE",
+        "name": "Dogecoin",
+        "currencyType": "Crypto",
+        "scale": "6",
+        "enabled": true,
+        "isMarginCurrency": false,
+        "minDepositAmount": "8000000",
+        "minWithdrawalAmount": "8000000",
+        "maxWithdrawalAmount": "800000000000000",
+        "memoRequired": false,
+        "networks": [
+          {
+            "asset": "doge",
+            "depositEnabled": true,
+            "withdrawalEnabled": true,
+            "withdrawalFee": "5000000",
+            "minFee": "5000000",
+            "maxFee": "5000000"
+          }
+        ]
+      },
+      "withdraw": {
+        "fee": 5,
+        "percentage": false
+      },
+      "deposit": {},
+      "networks": {
+        "doge": {
+          "deposit": {},
+          "withdraw": {
+            "fee": 5,
+            "percentage": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "poloniex",
+    "withdrawFee": {
+      "info": {
+        "DOGE": {
+          "id": 59,
+          "name": "Dogecoin",
+          "description": "BTC Clone",
+          "type": "address",
+          "withdrawalFee": "20.00000000",
+          "minConf": 6,
+          "depositAddress": null,
+          "blockchain": "DOGE",
+          "delisted": false,
+          "tradingState": "NORMAL",
+          "walletState": "ENABLED",
+          "walletDepositState": "ENABLED",
+          "walletWithdrawalState": "ENABLED",
+          "supportCollateral": true,
+          "supportBorrow": false,
+          "parentChain": null,
+          "isMultiChain": true,
+          "isChildChain": false,
+          "childChains": [
+            "DOGETRON"
+          ]
+        }
+      },
+      "withdraw": {
+        "fee": 20,
+        "percentage": false
+      },
+      "deposit": {},
+      "networks": {
+        "DOGE": {
+          "withdraw": {
+            "fee": 20,
+            "percentage": false
+          },
+          "deposit": {}
+        },
+        "TRC20": {
+          "withdraw": {},
+          "deposit": {}
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "huobi",
+    "withdrawFee": {
+      "info": {
+        "currency": "doge",
+        "assetType": "1",
+        "chains": [
+          {
+            "chain": "doge",
+            "displayName": "DOGE",
+            "fullName": "Dogecoin",
+            "isDynamic": false,
+            "numOfConfirmations": "36",
+            "numOfFastConfirmations": "6",
+            "depositStatus": "allowed",
+            "minDepositAmt": "40",
+            "withdrawStatus": "allowed",
+            "minWithdrawAmt": "50",
+            "withdrawPrecision": "8",
+            "maxWithdrawAmt": "99999999999999999.000000000000000000",
+            "withdrawQuotaPerDay": "500000000.000000000000000000",
+            "withdrawQuotaPerYear": null,
+            "withdrawQuotaTotal": null,
+            "withdrawFeeType": "fixed",
+            "transactFeeWithdraw": "5",
+            "addrWithTag": false,
+            "addrDepositTag": false
+          },
+          {
+            "chain": "hrc20doge",
+            "displayName": "HECO",
+            "fullName": "",
+            "baseChain": "HECO",
+            "baseChainProtocol": "HRC20",
+            "isDynamic": true,
+            "numOfConfirmations": "20",
+            "numOfFastConfirmations": "10",
+            "depositStatus": "prohibited",
+            "minDepositAmt": "8.7",
+            "withdrawStatus": "prohibited",
+            "minWithdrawAmt": "8.7",
+            "withdrawPrecision": "8",
+            "maxWithdrawAmt": "99999999999999999.000000000000000000",
+            "withdrawQuotaPerDay": "4500000.000000000000000000",
+            "withdrawQuotaPerYear": null,
+            "withdrawQuotaTotal": null,
+            "withdrawFeeType": "fixed",
+            "transactFeeWithdraw": "0.1861718",
+            "addrWithTag": false,
+            "addrDepositTag": false
+          }
+        ],
+        "instStatus": "normal"
+      },
+      "withdraw": {
+        "fee": 5,
+        "percentage": false
+      },
+      "deposit": {},
+      "networks": {
+        "DOGE": {
+          "withdraw": {
+            "fee": 5,
+            "percentage": false
+          },
+          "deposit": {}
+        },
+        "HRC20": {
+          "withdraw": {
+            "fee": 0.1861718,
+            "percentage": false
+          },
+          "deposit": {}
+        }
+      }
+    }
+  },
+  {
+    "exchangeId": "kucoin",
+    "withdrawFee": {
+      "info": {
+        "currency": "DOGE",
+        "limitBTCAmount": "14.57569384",
+        "usedBTCAmount": "0.00000000",
+        "quotaCurrency": "USDT",
+        "limitQuotaCurrencyAmount": "999999.00000000",
+        "usedQuotaCurrencyAmount": "0",
+        "remainAmount": "6775520.02168168",
+        "availableAmount": "0",
+        "withdrawMinFee": "5",
+        "innerWithdrawMinFee": "0",
+        "withdrawMinSize": "20",
+        "isWithdrawEnabled": true,
+        "precision": 8,
+        "chain": "DOGE",
+        "reason": null,
+        "lockedAmount": "0"
+      },
+      "withdraw": {
+        "fee": 5,
+        "percentage": false
+      },
+      "deposit": {},
+      "networks": {
+        "DOGE": {
+          "withdraw": 5,
+          "deposit": {}
+        }
+      }
+    }
+  }
+]

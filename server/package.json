@@ -1,0 +1,37 @@
+{
+  "name": "arbibot_claude",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/bun": "^1.1.12",
+    "@types/node": "^22.8.1",
+    "@types/pg": "^8.11.10",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.11.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:deploy": "drizzle-kit deploy"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.2.12",
+    "bottleneck": "^2.19.5",
+    "ccxt": "^4.4.22",
+    "drizzle-kit": "^0.26.2",
+    "drizzle-orm": "^0.35.3",
+    "lru-cache": "^11.0.1",
+    "p-queue": "^8.0.1",
+    "pg": "^8.13.0",
+    "winston": "^3.15.0"
+  }
+}
